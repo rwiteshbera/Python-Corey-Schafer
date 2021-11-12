@@ -53,11 +53,32 @@ message = 'HelloWorld'
 
 
 
-# Concatenate Strings
+# 1. Concatenate Strings
+# firstName = "Rwitesh"
+# lastName = "Bera"
+# Name = firstName + " " + lastName + ' Welcome!'
+# print(Name)
+
+
+
+# 2. Concatenate Strings
 firstName = "Rwitesh"
 lastName = "Bera"
-Name = firstName + " " + lastName
+Name = '{} {}, Welcome!'.format(firstName, lastName)
 print(Name)
 
+
+
+# You can use 'f-string' mechanism to concatenate multiple strings
+# greeting = "Hello"
+# name = "Rwitesh"
+# displayGreet = f'{greeting}, {name}. Welcome!'
+# print(displayGreet)
+
+
+
+# More Methods
+a = "kolkata"
+print(a.capitalize())
 
 
